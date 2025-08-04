@@ -55,5 +55,5 @@ app.post('/api/subject', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`✅ Mock backend running at http://localhost:${PORT}`);
+  console.log(`Mock backend running at http://localhost:${PORT}`);
 });

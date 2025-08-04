@@ -52,7 +52,7 @@ const SpamDetector = () => {
     setLoading(true);
     setResult(null);
     try {
-      const response = await fetch('http://localhost:8080/api/message', {
+      const response = await fetch('http://localhost:8000/classify', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: input }),
